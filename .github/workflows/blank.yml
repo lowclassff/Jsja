@@ -8,7 +8,7 @@ on:
 jobs:
   start-vps:
     runs-on: ubuntu-latest
-    timeout-minutes: 525600  # ⏱️ 1 year (adjust as needed)
+    timeout-minutes: 360  # ⏱️ 6 hours (adjust as needed)
     env:
       TMATE_SERVER: nyc1.tmate.io
  
